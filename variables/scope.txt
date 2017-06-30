@@ -1,0 +1,18 @@
+# below prints out 3 because x is declared outside the method (times) scope and can
+# be accessed in the inner (method) scope
+
+x = 0
+3.times do 
+  x += 1
+end
+puts x
+
+# below results in an error because x is declared in an inner (method) scope and is not 
+# accessible outside that scope
+
+y = 0
+3.times do
+  y += 1
+  x = y
+end
+puts x
