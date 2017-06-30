@@ -1,0 +1,10 @@
+1. x = 2
+a: 2
+2. puts x = 2
+a: nil
+3. p name = "Joe"
+a: "Joe"
+4. four = "four"
+a: "four"
+5 print something = "nothing"
+a: nil

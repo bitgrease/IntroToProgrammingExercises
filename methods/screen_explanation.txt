@@ -1,0 +1,9 @@
+def scream(words)
+  words = words + "!!!!"
+  return
+  puts words
+end
+
+scream("Yippeee")
+
+# this will return nil (because that's what's explicity returned with the 'return' statement)
