@@ -1,0 +1,6 @@
+The string 'margaret' was used to attempt to index into the array, since the index needs to be
+an Integer, Ruby attempted to convert but there is no implicit conversion from String to Integer.
+
+Use the integer index of margaret and assign 'jody' to that location:
+
+names[names.index('margaret')] = jody
