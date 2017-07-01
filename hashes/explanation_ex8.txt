@@ -1,0 +1,5 @@
+keys is a hash instance method. Array doesn't have an instance method named 'keys'
+
+So the answer is 'B'
+
+Can check with Hash.new().respond_to?('keys') and Array.new().respond_to('keys')
