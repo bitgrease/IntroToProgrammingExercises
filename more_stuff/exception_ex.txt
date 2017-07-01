@@ -1,0 +1,3 @@
+Exception handling allows you to handle errors gracefully that would normally stop your program in place. 
+
+You can decide whether the error is recoverable or if you need to terminate or do additional cleanup before continuing.

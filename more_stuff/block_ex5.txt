@@ -1,0 +1,9 @@
+The error is because the block parameter doesn't have the '&' in front of the identifier. The "wrong number of arguments" message is because it's expecting a non-block argument since that's what was indicated in the method definition.
+
+To fix it:
+
+def execute(&block)
+  block.call
+end
+
+execute { puts "Hello from inside the execute method!" }

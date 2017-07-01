@@ -1,0 +1,9 @@
+Nothing is printed. The block is never .call(ed)
+
+For this to work it would need to be:
+
+def execute(&block)
+  block.call
+end
+
+execute { puts "Hello from inside the execute method!" }
