@@ -1,0 +1,9 @@
+"========Exercise 17============="
+This one threw me. I checked the object id's and saw that they were different (as expected)
+and didn't expect them to evaluate to true with the comparison operator.
+
+But reading up, I see that == is usually overridden by classes to provide class specific 
+equality checks. So, for Hash, I guess that means that the keys/values are the same.
+
+I also read that the equal? method should be used to check for object sameness.
+

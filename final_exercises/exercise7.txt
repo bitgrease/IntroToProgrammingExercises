@@ -1,0 +1,8 @@
+#Exercise 7 - Diff between Array and Hash
+=begin
+
+An array is an ordered list accessible by location
+A Hash is ordered (post Ruby 1.9) collection of key/value pairs that
+can be accessed by the key. Keys can be any ruby object (String, symbol, another hash, etc)
+  
+=end
